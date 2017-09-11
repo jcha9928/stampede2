@@ -7,7 +7,7 @@
 #SBATCH -t 00:30:00
 #          <------ Account String ----->
 # <--- (Use this ONLY if you have MULTIPLE accounts) --->
-#SBATCH -A A-ccsc
+
 
 export LAUNCHER_PLUGIN_DIR=$LAUNCHER_DIR/plugins
 export LAUNCHER_RMI=SLURM
