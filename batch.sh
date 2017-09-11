@@ -3,8 +3,10 @@
 #SBATCH -N 10
 #SBATCH -n 10
 #SBATCH -p development
-#SBATCH -o test.o%j
+#SBATCH -o ./job/tcken.o%j
+#SBATCH -e ./job/tcken.e%j
 #SBATCH -t 48:00:00
+#SBATCH --mail-user=cha.jiook@gmail.com                         
 
 export LAUNCHER_PLUGIN_DIR=$LAUNCHER_DIR/plugins
 export LAUNCHER_RMI=SLURM
