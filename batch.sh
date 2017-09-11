@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J test
-#SBATCH -N 10
-#SBATCH -n 10
+#SBATCH -N 4
+#SBATCH -n 4
 #SBATCH -p development
 #SBATCH -o ./job/tcken.o%j
 #SBATCH -e ./job/tcken.e%j
