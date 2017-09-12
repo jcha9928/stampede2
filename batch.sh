@@ -3,8 +3,8 @@
 #SBATCH -N 4
 #SBATCH -n 4
 #SBATCH -p development
-#SBATCH -o ./job/tcken.o%j
-#SBATCH -e ./job/tcken.e%j
+#SBATCH -o ./tcken.o%j
+#SBATCH -e ./tcken.e%j
 #SBATCH -t 48:00:00
 #SBATCH --mail-user=cha.jiook@gmail.com                         
 
